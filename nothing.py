@@ -5,7 +5,7 @@ import sys
 #API_KEY => here
 API_KEY = ""
 
-
+# Add the Gemini model AI model info here
 MODEL_VERSION = "gemini-2.0-flash"
 ENDPOINT_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_VERSION}:generateContent?key={API_KEY}"
 
